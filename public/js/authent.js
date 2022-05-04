@@ -35,7 +35,7 @@ function validate()
 			document.getElementById("passwor").value == "Em"))
         {
              alert( "welcome back user " + document.getElementById("usernam").value);
-            location.href="index.html";
+            location.href="/index.html";
          }
         else
         {
