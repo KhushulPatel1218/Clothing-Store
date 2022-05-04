@@ -1,19 +1,3 @@
-function getInfo() {
-	var username = document.getElementById('username').value
-	var password = document.getElementById('password').value
-
-	for(var i = 0; i < names.length; i++) {
-		// check is user input matches username and password of a current index of the objPeople array
-		if(username == names[i].username && password == names[i].password) {
-			console.log(username + " is logged in!!!")
-			// stop the function if this is found to be true
-			return
-		}
-	}
-	console.log("incorrect username or password")
-}
-
-
 
 let accounts = [];
 
@@ -41,3 +25,45 @@ localStorage.setItem('accountsList', JSON.stringify(accounts) );
 document.addEventListener('DOMContentLoaded', ()=>{
 document.getElementById('btn').addEventListener('click', accountAdd);
 });
+
+
+function validate()
+        {
+            if((document.getElementById("usernam").value == "workshop"
+            && document.getElementById("passwor").value == "workshop") || 
+			(document.getElementById("usernam").value == "Ek" &&
+			document.getElementById("passwor").value == "Em"))
+        {
+             alert( "welcome back user " + document.getElementById("usernam").value);
+            location.href="index.html";
+         }
+        else
+        {
+        alert( "validation failed" );
+    }
+}
+
+
+/*
+function validate()
+        {
+			for(var i = 0; i < accounts.length; i++)
+			{
+            if(accounts.account.username.includes(document.getElementById("usernam").value) &&
+			accounts.account.password.includes(document.getElementById("passwor").value))
+        {
+             alert( "welcome back user " + document.getElementById("usernam").value);
+            location.href="groupproject.html";
+         }
+        else
+        {
+        alert( "validation failed" );
+        }
+			}
+}
+*/
+
+
+
+
+//Ekene Emenanjor
