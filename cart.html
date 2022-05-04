@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CART</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="/css/stylenick.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="mens.html">SHOP MENS</a> </li>
+                <li><a href="womens.html">SHOP WOMENS</a> </li>
+                <li><a href="cart.html">CART</a></li>
+                <li><a href="login.html">SIGN IN/SIGN UP</a></li>
+            </ul>
+        </nav>
+        <h1 class="store-name store-name-large">Levy's Clothing Store</h1>
+    </header>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="store-name">Levy's Clothing Store</h3>
+            <ul class="nav footer-nav">
+                <li><img src="images/levys3.png"></li>
+            </ul>
+        </div>
+    </footer>
+
+
+        <form class ="login-form">
+        <input type="text" id="username" placeholder="user name"/>
+        <input type="password" id="password" placeholder="password"/>
+       <a href="groupproject.html"><button>Login</button></a>
+        <!--<button onclick="groupproject.html">Login</button>-->
+        <p class="message">Didnt Sign Up ? <a href="#">Sign Up</a></p>
+        <p class="message"><a href="groupproject.html">Back to Homepage</a></p>
+    </form>
+        </div>
+        </div>
+
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js
+        '></script>
+
+        <script>
+        $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "fast");
+        });
+        </script>
+
+        <script src ="authent.js"></script>
+
+    
+</body>
+</html>

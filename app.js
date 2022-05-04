@@ -23,6 +23,15 @@ app.get('/womens.html', function(req, res) {
   res.sendFile(path.join(__dirname, '/womens.html'));
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/login.html', function(req, res) {
+  res.sendFile(path.join(__dirname, '/login.html'));
+});
+
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/cart.html', function(req, res) {
+  res.sendFile(path.join(__dirname, '/cart.html'));
+});
 
 
 
