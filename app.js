@@ -4,8 +4,6 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const router = express.Router();
-
 // sendFile will go here
 
 app.use(express.static(path.join(__dirname, 'public')));
