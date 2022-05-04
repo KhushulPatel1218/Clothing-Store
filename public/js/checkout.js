@@ -1,3 +1,11 @@
+function getInfo() {
+	var username = document.getElementById('fname').value
+	var password = document.getElementById('lname').value
+    var password = document.getElementById('address').value
+    var password = document.getElementById('city').value
+    var password = document.getElementById('state').value
+    var password = document.getElementById('zipcode').value
+
 
 let accounts = [];
 
@@ -26,19 +34,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
 document.getElementById('btn').addEventListener('click', accountAdd);
 });
 
-
-function validate()
-        {
-            if((document.getElementById("usernam").value == "workshop"
-            && document.getElementById("passwor").value == "workshop") || 
-			(document.getElementById("usernam").value == "Ek" &&
-			document.getElementById("passwor").value == "Em"))
-        {
-             alert( "welcome back user " + document.getElementById("usernam").value);
-            location.href="mens.html";
-         }
-        else
-        {
-        alert( "validation failed" );
-    }
 }
