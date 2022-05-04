@@ -17,7 +17,7 @@ var connect = async function(dbName){
 	myDB=mongoClient.db(dbName);
 	
 	if (!myDB){
-	    throw new Error("DB Connection Failed to start!");
+	    throw new Error("DB Failed!");
 	}
 	else{
 	    console.log(`Connected to ${dbName}`);
