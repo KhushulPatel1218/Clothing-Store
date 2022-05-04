@@ -80,9 +80,6 @@ function addItemToCart(title, price, imageSrc) {
         <div class="cart-quantity cart-column">
             <input class="cart-quantity-input" type="number" value="1">
             <button class="btn btn-danger" type="button">REMOVE</button>
-        </div>
-        <div class="cart-quantity cart-column">
-            <button class="btn btn-danger" type="button">Continue to Checkout</button>
         </div>`
         
 
