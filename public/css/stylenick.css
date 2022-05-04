@@ -42,7 +42,7 @@ body {
 }
 
 .main-header {
-    background-image: url("images/headerBackground4.jpg");
+    background-image: url("/img/headerBackground4.jpg");
     background-size: cover;
     padding-bottom: 30px;
 
@@ -77,7 +77,7 @@ body {
 }
 
 .main-footer {
-    background-image: url("images/headerBackground4.jpg");
+    background-image: url("/img/headerBackground4.jpg");
     background-size: cover;
     padding: .25em 0;
 
