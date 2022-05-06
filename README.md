@@ -1,6 +1,8 @@
 ﻿# testsite
  
  Git clone, mongo restore dump
+ Runs on local host :3000/index.html
+ 
  
  
  OLD CODE https://github.com/nicksbraga/groupproject
